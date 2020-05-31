@@ -37,7 +37,7 @@ public class LicenseService {
         String responseMessage = null;
         if (!StringUtils.isEmpty(license)) {
             license.setOrganizationId(organizationId);
-            responseMessage = String.format("This is the put and the object is: %s", license.toString());
+            responseMessage = String.format("Steven - This is the put and the object is: %s", license.toString());
         }
         return responseMessage;
     }
